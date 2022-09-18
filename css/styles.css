@@ -56,8 +56,8 @@ body{
     transition: transform 1s ease-in-out 0ms;
 }
 .penguin:active{
-    transform: scale(1.5);
-    cursor: nw-resize;
+    transform: scale(1.2);
+    cursor: not-allowed;
 }
 .penguin *{
     position: absolute;
@@ -193,7 +193,7 @@ body{
 }
 .arm.left{
     top: 35%;
-    left: 5%;
+    left: 9.5%;
     transform-origin: top left;
     transform: rotate(130deg) scaleX(-1);
     animation: 3s linear infinite wave;
